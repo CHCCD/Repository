@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Bonnie">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>進行網頁設計需要有哪些概念</title>
+	<link rel="shortcut icon" type="image/svg+xml" href="images/favicon.svg" />
+	<meta property="og:description" content="網頁設計是一個多層次的領域，需要綜合考慮多種概念和元素。以下是進行網頁設計時需要考慮的一些主要概念。" />
+	<meta property="og:title" content="進行網頁設計需要有哪些概念" />
+	<meta property="og:image" content="images/n03.jpg" />
+	<!-- css -->
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" type="text/css" href="css/mainvision.css" />
+	<link rel="stylesheet" type="text/css" href="css/news_block_new.css" />
+	<link rel="stylesheet" type="text/css" href="css/rd-navbar.css" />
+	<link rel="stylesheet" type="text/css" href="css/rd-navbar-fix.css" />
+	<link rel="stylesheet" type="text/css" href="css/btp.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- js -->
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="js/jquery.rd-navbar.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+	$(document).ready(function(){
+
+		var o = $('.rd-navbar');
+		o.RDNavbar({
+			autoHeight:false,
+			stickUpClone:false,
+			stickUpOffset:170,
+			responsive: {
+			0: {
+				layout: 'rd-navbar-fixed',
+				focusOnHover: false
+			},
+			1200: {
+				layout: 'rd-navbar-static',
+				focusOnHover: true
+			}
+			}
+		});
+
+	});
+	</script>
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="totop" title="Go to top"><i class="bi bi-chevron-up"></i></button>
+<script>
+let mybutton = document.getElementById("totop");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} else {
+		mybutton.style.display = "none";
+	}
+}
+
+function topFunction() {
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!-- header Start -->
+<header>
+    <!-- RD Navbar -->
+    <div class="rd-navbar-wrap">
+        <nav class="rd-navbar" data-rd-navbar-lg="rd-navbar-static">
+            <div class="navbar-block text-end">
+			<div class="rd-navbar-inner">
+                <!-- RD Navbar Panel -->
+                <div class="rd-navbar-panel">
+                    <div class="rd-navbar-panel-canvas"></div>
+
+                    <!-- RD Navbar Toggle -->
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                    <!-- END RD Navbar Toggle -->
+
+                </div>
+                <!-- END RD Navbar Panel -->
+            </div>
+            </div>
+			
+            <div class="rd-navbar-outer">
+                <div class="rd-navbar-inner">
+
+
+                    <div class="rd-navbar-subpanel">
+
+                    <!-- RD Navbar Brand --><!-- logo -->
+                    <div class="rd-navbar-brand">
+                        <a href="index.html" target="_top" title="GITHUB網頁設計公司">
+							<img src="images/logo_w.svg" alt="GITHUB網頁設計公司" class="brand-logo logo_w" />
+							<img src="images/logo.svg" alt="GITHUB網頁設計公司" class="brand-logo logo_c" />
+                        </a>
+                    </div>
+                    <!-- END RD Navbar Brand --><!-- logo -->
+
+                        <div class="rd-navbar-nav-wrap">
+                            <!-- RD Navbar Nav -->
+                            <ul class="rd-navbar-nav">
+                                <li><a href="about.html" target="_top" title="關於我們">關於我們</a></li>
+                                <li><a href="news.html" target="_top" title="最新訊息">最新訊息</a></li>
+                                <li>
+                                    <a href="article.html" target="_top" title="專題文章">專題文章</a>
+
+                                    <!-- RD Navbar Dropdown -->
+                                    <ul class="rd-navbar-dropdown">
+                                        <li>
+                                            <a href="web_design_price.html" target="_top" title="網頁設計報價解說">網頁設計報價解說</a>
+                                        </li>
+                                        <li>
+                                            <a href="web_design_preparation.html" target="_top" title="網頁設計前置準備">網頁設計前置準備</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li>
+                                                    <a href="visit_web_design_tutorial_sites.html" target="_top" title="逛逛網頁設計教學網站">逛逛網頁設計教學網站</a>
+                                                </li>
+                                                <li>
+                                                    <a href="web_design_museum.html" target="_top" title="網頁設計大觀園">網頁設計大觀園</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <!-- END RD Navbar Dropdown -->
+
+                                </li>
+                                <li><a href="service.html" target="_top" title="服務介紹">服務介紹</a></li>
+                                <li><a href="contact_us.html" target="_top" title="聯絡我們">聯絡我們</a></li>
+                            </ul>
+                            <!-- END RD Navbar Nav -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END RD Navbar -->
+</header>
+<!-- header End -->
+
+
+		
+<div id="maincontent">
+
+										
+	<div class="center-blocks">
+		<div class="container-fluid maincontainer">
+		<div class="row">
+		<div class="col-md-12 col-lg-12">
+	<div class="row justify-content-center">
+	<div class="col-12 col-xl-8">
+<section role="main" class="news-item">
+	<article role="article">
+        
+	<blockquote>
+		<h2 role="heading" class="news-no-image"><a href="news.html">最新訊息</a>：進行網頁設計需要有哪些概念 </h2>
+		<footer><cite title="作者"><em><strong>作者：</strong><a href="https://www.facebook.com/cadch.com.tw/" target="_blank" rel="noopener noreferrer">張銘峰</a> 於 2023-09-04</em></cite></footer>
+	</blockquote>
+	<div class="news-main clearfix">
+		<h1>進行網頁設計需要有哪些概念</h1>
+		
+		<p><a href="https://www.nc.com.tw/" target="_blank" class="link-danger">網頁設計</a>是一個多層次的領域，需要綜合考慮多種概念和元素。以下是進行網頁設計時需要考慮的一些主要概念：</p>
+		<ol>
+		<li><p><a href="#ux">用戶體驗（User Experience, UX）</a>：</p>
+			<ul><li>用戶界面設計</li><li>互動設計</li><li>可用性測試</li></ul>
+		</li>
+		<li><p><a href="#vd">視覺設計（Visual Design）</a>：</p><ul><li>色彩選擇</li><li>字體選擇</li><li>圖片和圖形設計</li></ul></li>
+		<li><p><a href="#layout">網頁佈局（Layout）</a>：</p><ul><li>頁面結構</li><li>元素位置</li><li>響應式設計（Responsive Design）</li></ul></li>
+		<li><p>網頁導航（Navigation）：</p>
+			<ul><li>主導航菜單</li>
+				<li>頁面層次結構</li>
+				<li>內部鏈接設計</li>
+			</ul>
+		</li>
+		<li><p>內容策略（Content Strategy）：</p><ul><li>內容規劃</li><li>文字編排</li><li>多媒體內容整合</li></ul></li>
+		<li><p>網頁性能優化（Performance Optimization）：</p><ul><li>圖像壓縮</li><li>載入速度優化</li><li>網站緩存</li></ul></li>
+		<li><p>互動元素（Interactive Elements）：</p>
+			<ul><li>表單設計</li><li>滑塊、按鈕、對話框等元素</li><li>JavaScript互動</li></ul>
+		</li>
+		<li><p>瀏覽器相容性（Browser Compatibility）：</p>
+			<ul>
+				<li>不同瀏覽器的測試和調整</li>
+				<li>前端編碼標準</li>
+			</ul>
+		</li>
+		<li><p>安全性（Security）：</p><ul><li>防止跨站腳本（XSS）攻擊</li><li>防止跨網站請求偽造（CSRF）攻擊</li><li>SSL/TLS加密</li></ul></li>
+		<li><p>行動設備優化（Mobile Optimization）：</p><ul><li>行動設備佈局</li><li>觸摸屏幕互動</li><li>行動優化的圖像和視頻</li></ul></li>
+		<li><p>SEO（Search Engine Optimization）：</p>
+			<ul><li>關鍵詞研究</li><li>內部和外部鏈接</li><li>元標籤和描述優化</li></ul>
+		</li>
+		<li><p>網站分析（Website Analytics）：</p>
+			<ul><li>使用分析工具追蹤流量和用戶行為</li>
+				<li>基於數據做出改進決策</li>
+			</ul>
+		</li>
+		<li><p>社交媒體整合（Social Media Integration）：</p><ul><li>社交分享按鈕</li><li>社交媒體賬戶連結</li><li>社交媒體嵌入</li></ul></li>
+		<li><p>網站測試和測試用戶（Testing and User Testing）：</p><ul><li>測試網站功能</li><li>運用焦點小組和用戶測試反饋</li></ul></li>
+		<li><p>管理和維護（Management and Maintenance）：</p>
+			<ul><li>定期更新和維護網站</li><li>定期備份和安全性檢查</li></ul>
+		</li>
+		</ol>
+		<h3>以上列出的概念是進行網頁設計時需要考慮的一些重要方面。根據具體項目的要求，可能還有其他特定概念需要納入考慮。綜合考慮這些概念可以幫助您創建出功能強大、吸引人的網站。</h3>
+		<h2 name="ux" id="ux" class="pt-5">進行網頁設計需要有用戶體驗概念</h2>
+		<p>隨著互聯網的發展，網頁已成為企業與用戶溝通的重要平台。為了讓用戶在瀏覽網頁時能獲得良好的體驗，網頁設計師需要注重用戶體驗概念的應用。 </p>
+		<p>良好的用戶體驗是指用戶在瀏覽或者使用網頁時，能夠順暢地找到所需要的信息，完成預定的任務，在此過程中獲得正面的情感體驗。要實現這一目標，網頁設計師需要關注以下幾個方面：</p>
+		<p>第一，簡潔的視覺設計。網頁的版面要簡潔大方，重要內容需要突出強調，確保用戶可以迅速定位並獲取所需信息。文字內容也要精簡精準，避免冗長雜亂的描述影響閱讀流暢度。 </p>
+		<p>第二，合理的頁面佈局。網站頁面要合理劃分不同的欄塊，如標題、菜單、內容和頁尾等。相關的內容要集中呈現，不相關的內容則分開顯示，使頁面佈局條理清晰。 </p>
+		<p>第三，易於操作的導航系統。網站的菜單設計和連結方式要容易操作，用戶可以迅速定位到所需內容，而不會迷失在錯綜複雜的頁面之中。重要頁面也可以設置明顯的返回按鈕，方便用戶返回上一級。 </p>
+		<p>第四，快速的頁面載入速度。由於網速的限制，頁面載入速度直接影響瀏覽流暢度。設計師需要優化網站的代碼，精簡頁面上的不必要內容，使用高效的執行腳本，盡可能提高網站開頁速度。 </p>
+		<p>第五，友好的互動體驗。網頁中的互動操作要方便易用，如搜索條件和過濾設置要合理，購物車和訂單系統要精準高效，確保用戶可以順利完成任務而不會產生挫敗感。 </p>
+		<h3>通過注重以上幾個方面，網頁設計師能夠對用戶體驗起到正面作用。一個有良好用戶體驗的網站不僅可以提高用戶瀏覽網站的滿意度，也能增強企業品牌形象，並最終提升網站的商業價值。隨著人們對用戶體驗要求的不斷提高，建立良好的用戶體驗將成為每一位優秀網頁設計師必須注重的設計理念。 </h3>
+		<h2 name="vd" id="vd" class="pt-5">進行網頁設計需要有視覺設計概念</h2>
+		<p>隨著網站在企業中的地位越發重要，網頁設計也愈加註重視覺表現力的提升。良好的視覺設計不僅能吸引用戶的眼球，也能更好地傳達網站訊息，提高用戶體驗。因此，進行網頁設計需要具備視覺設計的概念。 </p>
+		<p>視覺設計主要涉及版面、色彩、圖像、字體等視覺元素的運用。網頁設計師可以通過以下幾個方面提高網頁的視覺表現力：</p>
+		<p>第一，適當使用白空間。白空間具有畫龍點睛的作用，可以使頁面佈局顯得不擁擠，讓主要內容得以突顯。但空白過多也會給人冷清感，設計師需掌握白空間的運用度。 </p>
+		<p>第二，色彩搭配要和諧。網頁色調要簡潔明快，重要內容可以用鮮艷色彩標出，並與背景色和頁面其他色調組合得宜，營造出和諧美觀的視覺效果。 </p>
+		<p>第三，版面結構要合理。網頁版面通過欄位、區塊的位置佈局來表達內容的層級，應充分利用結構感表現內容的輕重緩急。 </p>
+		<p>第四，字型選擇要多樣。網頁中標題與正文適用不同字型，能形成視覺層次。但限製字型總數，太多字型會顯得雜亂。 </p>
+		<p>第五，圖像應適量使用。適量的插圖、圖標和相片能使枯燥的內容栩栩如生。但也不能過分依賴圖像，要與文字達到平衡。 </p>
+		<p>第六，頁面統一風格。網站中的頁面風格要統一，相關元素如色調、版面和字體要保持高度一致，使整個網站具有連貫性。 </p>
+		<p>最後，根據展示平台進行優化。在電腦和手機等不同終端中，可能需要對頁面進行調整，使其在各平台都具有適配性和良好的視覺呈現。 </p>
+		<h3>綜上所述，進行網頁設計需要將視覺設計融入其中，這不僅能豐富網站內容，還能提高網站的美感質量，給用戶帶來更好的體驗。充分利用視覺設計元素，是每一位優秀網頁設計師都應該掌握的設計方法與技巧。 </h3>
+		<h2 name="layout" id="layout" class="pt-5">進行網頁設計需要有網頁佈局概念</h2>
+		<p>網頁佈局是網頁設計中的重要一環，它直接影響到網頁的美觀性和內容傳遞效果。良好的網頁佈局能夠使頁面元素合理有序地呈現在螢幕上，讓用戶迅速定位並瀏覽頁面內容，因此進行網頁設計需要對網頁佈局有清楚的概念。 </p>
+		<p>網頁佈局主要涉及頁面空間的分割方法和內容的排列方式。一般來說，網頁佈局應包含以下基本元素的設置：</p>
+		<p>頭部：包括頁面Logo、網站標題，可以設置全站導航。 </p>
+		<p>主體：頁面的主要內容，可能含有文字、圖片、表格等。 </p>
+		<p>側欄：通常用於放置次要內容，如子菜單、廣告等。 </p>
+		<p>頁尾：頁面底部信息，可能包含版權聲明等。 </p>
+		<p>這些網頁元素可以通過表格或CSS定位來實現不同佈局效果，常見的有上下式佈局、左右式佈局、多欄佈局等。同時，設計師還需要注意頁面元素之間的留白，透過白空間區隔內容，才能使佈局顯得不擁擠。 </p>
+		<p>此外，隨著移動設備的普及，網頁佈局也需要考慮響應式設計，根據不同螢幕尺寸進行優化，使內容在桌面瀏覽器、平板和手機上都能合理顯示，提供輕鬆瀏覽體驗。 </p>
+		<h3>總之，進行網頁設計時，設計師必須充分思考網頁空間的利用和內容顯示的優先級，選擇合適的佈局方案，使不同元素能夠整合統一，符合用戶閱讀習慣與瀏覽邏輯。一個功能優良並富有美感的網頁佈局，能夠充分發揮網站的展示效果，提高網頁的可用性，是網頁設計師應具備的基礎能力之一。 </h3>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-md-12 col-lg-8">
+			<img src="images/n03.jpg" alt="進行網頁設計需要有哪些概念" class="img-fluid center" decoding="async" loading="lazy" />
+		</div>
+	</div>
+	
+    </article>
+
+</section>
+
+<!-- Modal Image -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="myModalLabel">進行網頁設計需要有哪些概念</h4>
+		</div>
+		<div class="modal-body">
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+		</div><!-- .modal-content -->
+	</div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+<style>
+.news-item blockquote{border-left:5px solid #009E66;padding:10px 20px;}
+.news-main{line-height:2;}
+</style>
+
+<div class="row justify-content-between xoops-news-navigation">
+    <div class="col-6 text-start">
+    </div>
+
+	<div class="col-6 text-end">
+		<a href="visit_web_design_tutorial_sites.html" title="逛逛網頁設計教學網站">下一篇 <i class="bi bi-caret-right-fill"></i></a>
+	</div>
+    	
+</div><!-- .row -->
+    
+
+    
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+	
+</div>
+</div>
+</div>
+</div>
+
+	
+	<div class="footer-blocks">
+		<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-lg-12">
+			<div class="xoops-footer-blocks">
+				<div class="row justify-content-center">
+	<div class="col-12 col-xl-8">
+		<ul class="topicnav list-unstyled clearfix">
+			<li><a href="article.html" target="_top" title="專題文章">專題文章</a></li>
+			<li><a href="news.html" target="_top" title="最新訊息">最新訊息</a></li>
+		</ul>
+	</div>
+</div>
+
+<style>
+.topicnav{margin-bottom:20px;}
+.topicnav li{float:left;margin:10px 5px;}
+.topicnav li a{display:inline-block;color:#009E66;background-color:#FFF;border:1px solid #009E66;padding:4px 10px;font-weight:bold;}
+.topicnav li a:hover{color:#FFF;background-color:#009E66;}
+</style>
+		</div>
+	</div>					<div class="col-md-6 col-lg-6">
+	</div>					<div class="col-md-6 col-lg-6">
+	</div>				</div>
+		</div>
+	</div>
+	
+</div>
+
+<!-- footer Start -->
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 col-xl-8">
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="footer-menu infolist list-unstyled">
+							<li><a href="javascript:;" title="CONTACT">CONTACT</a></li>
+							<li><a href="tel:+886-3-4681000" title="PHONE">TEL：+886-3-4681000</a></li>
+							<li><a href="mailto:admin@nc.com.tw" title="EMAIL">EMAIL：admin@nc.com.tw</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="footer-menu infolist list-unstyled">
+							<li><a href="javascript:;" title="COMPANY">COMPANY</a></li>
+							<li><a href="https://goo.gl/maps/FXMG9cAh5RMx3VAFA" title="桃園市平鎮區環南路二段195號" target="_blank">桃園市平鎮區環南路二段195號</a></li>
+							<li><a href="https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do" title="統一編號：28499021" target="_blank">統一編號：28499021</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="footer-menu list-unstyled social clearfix">
+							<li><a href="https://www.linkedin.com/in/cadch" target="_top" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/cadch.com.tw" target="_top" title="Facebook"><i class="bi bi-facebook"></i></a></li>
+						</ul>
+						<div class="footer-info">
+							&#169; 2024 CHCCD Digital
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer End -->
+
+</body>
+</html>
