@@ -172,7 +172,7 @@ function topFunction() {
         
 	<blockquote>
 		<h2 role="heading" class="news-no-image"><a href="news.html">最新訊息</a>：進行網頁設計需要有哪些概念 </h2>
-		<footer><cite title="作者"><em><strong>作者：</strong><a href="https://www.facebook.com/cadch.com.tw/" target="_blank" rel="noopener noreferrer">張銘峰</a> 於 2023-09-06</em></cite></footer>
+		<footer><cite title="作者"><em><strong>作者：</strong><a href="https://www.facebook.com/cadch.com.tw/" target="_blank" rel="noopener noreferrer">張銘峰</a> 於 2023-09-07</em></cite></footer>
 	</blockquote>
 	<div class="news-main clearfix">
 		<h1>進行網頁設計需要有哪些概念</h1>
@@ -195,7 +195,7 @@ function topFunction() {
 		<li><p><a href="#interactive">互動元素（Interactive Elements）</a>：</p>
 			<ul><li>表單設計</li><li>滑塊、按鈕、對話框等元素</li><li>JavaScript互動</li></ul>
 		</li>
-		<li><p>瀏覽器相容性（Browser Compatibility）：</p>
+		<li><p><a href="#browser">瀏覽器相容性（Browser Compatibility）</a>：</p>
 			<ul>
 				<li>不同瀏覽器的測試和調整</li>
 				<li>前端編碼標準</li>
@@ -356,6 +356,35 @@ function topFunction() {
 		</ol>
 		<p>交互圖表可以根據用戶選擇變化數據展示形式，更生動展示信息。</p>
 		<h3>總之，通過添加適當的互動元素，可以提升用戶參與度，延長瀏覽時間，積極改善用戶體驗。互動性已成為現代網頁設計必備的要素之一。</h3>
+		
+		<h2 name="browser" id="browser" class="pt-5 link-warning">進行網頁設計需要有瀏覽器相容性概念</h2>
+		<p>由於不同瀏覽器的內核和標準支持存在差異，網頁設計時必須考慮瀏覽器相容性，使網頁能夠在各主流瀏覽器中都能正確顯示。</p>
+		<ol>
+		<li>代碼標準化</li>
+		</ol>
+		<p>儘量使用標準化的HTML、CSS代碼，避免只在某個瀏覽器中生效的非標準代碼。同時要注意語意化代碼，使內容易被搜索引擎理解。</p>
+		<ol start="2">
+		<li>CSS前綴</li>
+		</ol>
+		<p>部分CSS屬性需要添加-webkit-、-moz-等瀏覽器前綴才能生效。使用CSS前綴可以使效果套用到不同內核瀏覽器。</p>
+		<ol start="3">
+		<li>Media Query</li>
+		</ol>
+		<p>利用@media查詢檢查瀏覽器尺寸，達到響應式布局效果。根據不同設備適配不同佈局。</p>
+		<ol start="4">
+		<li>測試網頁在多瀏覽器</li>
+		</ol>
+		<p>在Chrome、Firefox、Safari、IE等主流瀏覽器中測試網頁效果。發現問題及時優化調整，保證核心功能在各瀏覽器的一致性。</p>
+		<ol start="5">
+		<li>使用Reset CSS</li>
+		</ol>
+		<p>Reset CSS可以重置不同瀏覽器的默認樣式，消除由默認樣式差異帶來的影響，保證各瀏覽器的呈現一致。</p>
+		<ol start="6">
+		<li>Polyfill技術</li>
+		</ol>
+		<p>使用Polyfill碼在低版本瀏覽器中實現最新API支持，使新特性能向下相容。</p>
+		<h3>總之，設計師需要時刻關注瀏覽器支持情況，並採取適當手段提高代碼的跨瀏覽器適配性。良好的相容性能讓所有用戶都能順利瀏覽網站。</h3>
+		
 		
 		
 		<style>:target {padding-top: 100px!important;margin-top: -100px;}</style>
