@@ -132,6 +132,19 @@
 .rd-navbar-static .rd-navbar-nav {
 	display:block;
 	text-align:right;
+	font-size:0px;
+}
+.rd-navbar-static .rd-navbar-nav:before {
+	content: '';display:inline-block;width:12px;height:60px;background:rgba(255,255,255,0.2);vertical-align: middle;border-radius: 10px 0px 0px 10px;
+}
+.rd-navbar-static .rd-navbar-nav:after {
+	content: '';display:inline-block;width:12px;height:60px;background:rgba(255,255,255,0.2);vertical-align: middle;border-radius: 0px 10px 10px 0px;
+}
+.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav:before {
+	content: '';display:inline-block;width:0px;
+}
+.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav:after {
+	background:rgba(255,255,255,0.0)
 }
 
 .rd-navbar-static .rd-navbar-nav li.rd-navbar--has-dropdown {
@@ -148,7 +161,10 @@
 }
 
 .rd-navbar-static .rd-navbar-nav > li {
-	display:inline-block;
+	display:inline-block;background:rgba(255,255,255,0.2);vertical-align: middle;
+}
+.rd-navbar-static.rd-navbar--is-stuck  .rd-navbar-nav > li {
+	display:inline-block;background:rgba(255,255,255,0.0);
 }
 
 .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown, .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-megamenu {
